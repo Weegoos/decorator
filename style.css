@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* var */
+:root{
+    --pattern: calc(1vh + 1vw);
+}
+
+.name_form{
+    position: absolute;
+    top:calc(var(--pattern) * 5);
+    left: calc(var(--pattern) * 25);
+    font-size: calc(var(--pattern) * 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name_input{
+    position: absolute;
+    top:calc(var(--pattern) * 1.5);
+
+    border: solid #000 1px;
+    border-radius: 5px;
+    width: calc(var(--pattern) * 10);
+    height: calc(var(--pattern) * 1.2);
+    font-size: calc(var(--pattern) * 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7px;
+}
+
+.street_form{
+    position: absolute;
+    top:calc(var(--pattern) * 9);
+    left: calc(var(--pattern) * 25);
+    font-size: calc(var(--pattern) * 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.street_input{
+    position: absolute;
+    top:calc(var(--pattern) * 1.5);
+    border: solid #000 1px;
+    border-radius: 5px;
+    width: calc(var(--pattern) * 10);
+    height: calc(var(--pattern) * 1.2);
+    font-size: calc(var(--pattern) * 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7px;
+}
+
+.city_form{
+    position: absolute;
+    top:calc(var(--pattern) * 13);
+    left: calc(var(--pattern) * 25);
+    font-size: calc(var(--pattern) * 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city_input{
+    position: absolute;
+    top:calc(var(--pattern) * 1.5);
+    border: solid #000 1px;
+    border-radius: 5px;
+    width: calc(var(--pattern) * 10);
+    height: calc(var(--pattern) * 1.2);
+    font-size: calc(var(--pattern) * 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7px;
+}
+
+#submit_btn{
+    position: absolute;
+    top: calc(var(--pattern) * 17);
+    left: calc(var(--pattern) * 25);
+}
